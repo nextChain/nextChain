@@ -13,9 +13,9 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		//키쌍생성
+		//�궎�뙇�깮�꽦
 		ECDSA ecdsa = new ECDSA();
-		//publickey and privatre key 생성 
+		//publickey and privatre key �깮�꽦 
 		String publicKey = Base64BC.encode(ecdsa.getPublicKey().getEncoded());
 				
 		Transaction transaction = new Transaction();
@@ -34,7 +34,7 @@ public class Test {
 		trsender.sendTransaction(transaction);
 		trsender.listTransaction();
 		
-		
+	// test 1	
 
 	}
 
